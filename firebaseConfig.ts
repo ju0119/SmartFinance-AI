@@ -8,12 +8,12 @@ import { getFirestore } from "firebase/firestore";
 
 // TODO: Replace with your actual Firebase config
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY_HERE",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyAYrt2Z6NnRhcSzbhtUyJtNzJDZqu6WH38",
+  authDomain: "smartfinance-1b246.firebaseapp.com",
+  projectId: "smartfinance-1b246",
+  storageBucket: "smartfinance-1b246.firebasestorage.app",
+  messagingSenderId: "10936824598",
+  appId: "1:10936824598:web:e9f5f5b8ae7c0101c79637"
 };
 
 const app = initializeApp(firebaseConfig);
@@ -21,5 +21,5 @@ export const auth = getAuth(app);
 export const db = getFirestore(app);
 */
 
-export const auth = {};
-export const db = {};
+export const auth = {} as any;
+export const db = {} as any;
