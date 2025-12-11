@@ -1,0 +1,5 @@
+{
+  "name": "SmartFinance AI",
+  "description": "A comprehensive personal finance management system featuring bank account tracking, stock portfolio management, and AI-powered financial insights using Gemini.",
+  "requestFramePermissions": []
+}
